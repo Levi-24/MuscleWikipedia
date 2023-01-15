@@ -1,0 +1,65 @@
+body {
+    background-image: url(../Pics/ExerciseBG.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    background-color: rgb(94, 94, 94);
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.exercise {
+    background-color: rgb(94, 94, 94);
+    padding: 10px;
+    padding-top: 30px;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    border-radius: 3px;
+}
+
+nav div:hover {
+    background-color: rgb(76, 76, 76);
+}
+
+nav {
+    display: flex;
+    flex-flow: row;
+    padding: 15px;
+    gap: 10px;
+    border-radius: 5px;
+    background-color: rgb(141, 141, 141);
+}
+
+a {
+    font-size: 18px;
+    color: seashell;
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 100%;
+
+    border-radius: 5px;
+}
+
+main h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+.column {
+    display: flex;
+    flex-flow: column;
+    width: 10%;
+    height: 700px;
+    justify-content: center;
+    padding-right: 35px;
+}
